@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  section{
+    display: flex;
+    /*row, row-reverse, collumn, collumn-reverse*/
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    background: green;
+    width: 100%;
+    height: 1000px;
+  }
+  
+  .caixa1{
+    background: blue;
+    width: 280px;
+    height: 280px;
+    align-self: center;
+  }
+  
+  .caixa2{
+    background: pink;
+    width: 280px;
+    height: 280px;
+  }
+  
+  .caixa3{
+    background: orange;
+    width: 280px;
+    height: 280px;
+  }
